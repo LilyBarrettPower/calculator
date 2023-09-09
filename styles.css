@@ -32,3 +32,27 @@ p {
     position: relative;
     top: 50px;
 }
+
+.button1 {
+    position: relative;
+    top: 25px;
+    text-align: center;
+
+}
+
+.button2 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+#equals {
+    border-color: white;
+    background-color: white;
+}
