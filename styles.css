@@ -1,5 +1,9 @@
-.banner {
+* {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.banner {
+    
     text-align: center;
 }
 
@@ -11,4 +15,14 @@ h1 {
 
 p {
     font-size: 1em;
+}
+
+.inputfields {
+    text-align: center;
+    border: 20px;
+    margin: 100px;
+}
+
+.label {
+    display: none;
 }
