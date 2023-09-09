@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById('equals').addEventListener('click', () => {
+    document.getElementById('equals').addEventListener('click', () => { // The JS code waits for someone to click the equals button
         const input1 = parseFloat(document.getElementById('input1').value);
         const input2 = parseFloat(document.getElementById('input2').value);
+        //retrieve the values from the two input fields 
         const operator = document.getElementById('operator').value;
 
         let result;
@@ -25,11 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 break;
             default:
                 result = "Invalid operation";
+                //using a switch statement to determine which operation should be preformed based on the operator chosen from dropdown
         }
-        document.getElementById('result').innerText = result;
+        document.getElementById('result').innerText = result; // display the result in the results section 
     });
 
-    document.getElementById('reset').addEventListener("click", () => {
+    document.getElementById('reset').addEventListener("click", () => { // when the reset button is clicked, all values should go back to default
         document.getElementById("input1").value = "";
         document.getElementById("input2").value = "";
         document.getElementById("operator").value = "addition";
