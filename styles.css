@@ -23,6 +23,6 @@ p {
     margin: 100px;
 }
 
-.label {
-    display: none;
+.dropdown {
+    text-align: center;
 }
